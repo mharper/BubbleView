@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.standalonecode.bubbleview.BubbleView
+        xmlns:bubble="http://schemas.android.com/apk/res/com.standalonecode.bubbleview"
+        android:id="@+id/bubble_view"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_margin="15dp"
+        android:orientation="horizontal" android:background="@android:color/transparent"
+        bubble:bubble_cornerRadius="15" bubble:bubble_pointerHeight="25"
+        bubble:bubble_pointerWidth="40" bubble:bubble_color="@color/inside_bubble"
+        bubble:bubble_outlineColor="@color/bubble_outline">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello Bubble World!"
+            android:textColor="@android:color/black"
+            />
+    </com.standalonecode.bubbleview.BubbleView>
+</LinearLayout>
+

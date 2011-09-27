@@ -1,0 +1,4 @@
+<resources>
+    <color name="inside_bubble">#ffdfdede</color>
+    <color name="bubble_outline">#00ffffff</color>
+</resources>

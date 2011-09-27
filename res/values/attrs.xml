@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="BubbleView">
+        <attr name="bubble_cornerRadius" format="integer"/>
+        <attr name="bubble_pointerHeight" format="integer"/>
+        <attr name="bubble_pointerWidth" format="integer"/>
+        <attr name="bubble_color" format="color" />
+        <attr name="bubble_outlineColor" format="color" />
+        <attr name="bubble_shadowRadius" format="float" />
+        <attr name="bubble_shadowOffsetX" format="float" />
+        <attr name="bubble_shadowOffsetY" format="float" />
+        <attr name="bubble_shadowColor" format="color" />
+        <attr name="bubble_gradientTopColor" format="color" />
+        <attr name="bubble_gradientBottomColor" format="color" />
+    </declare-styleable>
+</resources>
